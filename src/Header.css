@@ -58,7 +58,7 @@ a:active {
 
 .header_right {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   padding: 10px;
 }
 
