@@ -1,0 +1,13 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer_socialmedia > .MuiSvgIcon-root:hover {
+    color: #ed1c6c;
+    cursor: pointer;
+}

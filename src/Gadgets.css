@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Constantia;
+  src: url(//db.onlinewebfonts.com/c/0b9856633d4311a19df074ea509d8390?family=Constantia);
+}
+
+.gadgets {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  height: 25vh;
+}
+
+.gadgets_image {
+  background-image: url(./img/promo.png);
+  background-position: 35vw 2vh;
+  background-repeat: no-repeat;
+  background-size: 11vw 20vh;
+  height: 100%;
+}
+
+.gadgets_right {
+  display: flex;
+  align-items: center;
+}
+
+.gadgets_right > p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: -50px;
+  font-size: 15px;
+  color: black;
+}

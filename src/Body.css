@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&family=Wire+One&display=swap");
+
+.body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: black;
+  height: 58vh;
+}
+
+.body_left {
+  height: 100%;
+}
+
+.body_image {
+  background-image: url(./img/Fondo.jpg);
+  background-position: 14vw 2vh;
+  background-repeat: no-repeat;
+  background-size: 41vw 58vh;
+  height: 100%;
+}
+
+.body_right {
+    display: flex;
+    align-items: center;
+}
+
+.body_right > p {
+    font-size: 60px;
+    text-decoration: underline;
+    font-family: "Wire One", sans-serif;
+    color: white;
+}

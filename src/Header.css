@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Constantia;
+  src: url(//db.onlinewebfonts.com/c/0b9856633d4311a19df074ea509d8390?family=Constantia);
+}
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&family=Wire+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 25px 250px;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  cursor: pointer;
+}
+
+.header_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.header_items > a:link,
+a:visited {
+  text-decoration: none;
+  margin-top: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.header_items > a:hover,
+a:active {
+  color: #7E7E7E;
+}
+
+.header_logo > span {
+  color: #ed1c6c;
+  font-family: Constantia;
+  font-size: 50px;
+}
+
+.header_logo {
+  font-family: "Wire One", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.header_right {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+}
+
+/*Search Box*/
+.header_searchbox {
+  height: 30px;
+  background-color: #ecf0f1;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.header_searchbox > .MuiSvgIcon-root {
+  color: black;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ecf0f1;
+}
+
+.header_searchbox > input {
+  border: none;
+  background: none;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 100px;
+  width: 0px;
+}
+
+.header_right > .MuiButton-root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  height: 50px;
+}
+
+.header_right > .MuiButton-root:hover {
+    color: black;
+    background-color: #ecf0f1;
+}
+
+.header_searchbox:hover > input {
+  width: 240px;
+  padding: 0 6px;
+}
